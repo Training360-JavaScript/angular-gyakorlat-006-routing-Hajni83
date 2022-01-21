@@ -6,10 +6,10 @@ export class Event {
   time: string;
   location: Location;
 
-  constructor(name: string, date: string, time: string, location: Location) {
-    this.name = name;
-    this.date = date;
-    this.time = time;
-    this.location = location;
+  constructor(name?: string, date?: string, time?: string, location?: Location) {
+    this.name = name ?? "";
+    this.date = date ?? "";
+    this.time = time ?? "";
+    this.location = location ?? new Location();
   }
 }

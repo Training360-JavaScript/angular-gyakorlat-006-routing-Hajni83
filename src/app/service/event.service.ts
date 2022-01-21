@@ -13,19 +13,19 @@ export class EventService {
       new Event(
         'Robert',
         '2022',
-        '12:00',
+        '10am',
         new Location('Kis utca 4.', 'Budapest', 'Magyarország')
       ),
       new Event(
         'Robert',
         '2022',
-        '12:00',
+        '10am',
         new Location('Kis utca 4.', 'Budapest', 'Magyarország')
       ),
       new Event(
         'Robert',
         '2022',
-        '12:00',
+        '10am',
         new Location('Kis utca 4.', 'Budapest', 'Magyarország')
       ),
     ];
